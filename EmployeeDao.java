@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class EmployeeDao {
 	String xx[]= {"Ganesh","Pravin"};
 	//xx=new String[2];
-	// This line is added for commit purpose
+	// This line is added for commit purpose xzzd
 	String[] getData() // db caller
 	{
 		// this is database code we have not completed yet

@@ -10,8 +10,9 @@ public class EmplyeeController {
 	@RequestMapping("getNameData") 
 	String[] getNames() throws Exception
 	{
-//		System.out.println(1234);
-//		System.out.println(empservice);
+// This is the comment now i have added to commit
+//		System.out.println(3421);
+//		System.out.println("EmpService"+empservice);
 //		String xx[]= {"Pravin","Ganesh"};
 		return empservice.getNamesData();
 	}
